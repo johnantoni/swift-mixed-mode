@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA311A7F1AD7478800911068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA311A7E1AD7478800911068 /* AppDelegate.swift */; };
+		EA311A811AD7478800911068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA311A801AD7478800911068 /* ViewController.swift */; };
+		EA311A841AD7478800911068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA311A821AD7478800911068 /* Main.storyboard */; };
+		EA311A861AD7478800911068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA311A851AD7478800911068 /* Images.xcassets */; };
+		EA311A891AD7478800911068 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA311A871AD7478800911068 /* LaunchScreen.xib */; };
+		EA311A951AD7478800911068 /* MixedModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA311A941AD7478800911068 /* MixedModeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA311A8F1AD7478800911068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA311A711AD7478800911068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA311A781AD7478800911068;
+			remoteInfo = MixedMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA311A791AD7478800911068 /* MixedMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixedMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA311A7D1AD7478800911068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA311A7E1AD7478800911068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA311A801AD7478800911068 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA311A831AD7478800911068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA311A851AD7478800911068 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA311A881AD7478800911068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA311A8E1AD7478800911068 /* MixedModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixedModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA311A931AD7478800911068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA311A941AD7478800911068 /* MixedModeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedModeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA311A761AD7478800911068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA311A8B1AD7478800911068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA311A701AD7478800911068 = {
+			isa = PBXGroup;
+			children = (
+				EA311A7B1AD7478800911068 /* MixedMode */,
+				EA311A911AD7478800911068 /* MixedModeTests */,
+				EA311A7A1AD7478800911068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA311A7A1AD7478800911068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA311A791AD7478800911068 /* MixedMode.app */,
+				EA311A8E1AD7478800911068 /* MixedModeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA311A7B1AD7478800911068 /* MixedMode */ = {
+			isa = PBXGroup;
+			children = (
+				EA311A7E1AD7478800911068 /* AppDelegate.swift */,
+				EA311A801AD7478800911068 /* ViewController.swift */,
+				EA311A821AD7478800911068 /* Main.storyboard */,
+				EA311A851AD7478800911068 /* Images.xcassets */,
+				EA311A871AD7478800911068 /* LaunchScreen.xib */,
+				EA311A7C1AD7478800911068 /* Supporting Files */,
+			);
+			path = MixedMode;
+			sourceTree = "<group>";
+		};
+		EA311A7C1AD7478800911068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA311A7D1AD7478800911068 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA311A911AD7478800911068 /* MixedModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA311A941AD7478800911068 /* MixedModeTests.swift */,
+				EA311A921AD7478800911068 /* Supporting Files */,
+			);
+			path = MixedModeTests;
+			sourceTree = "<group>";
+		};
+		EA311A921AD7478800911068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA311A931AD7478800911068 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA311A781AD7478800911068 /* MixedMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA311A981AD7478800911068 /* Build configuration list for PBXNativeTarget "MixedMode" */;
+			buildPhases = (
+				EA311A751AD7478800911068 /* Sources */,
+				EA311A761AD7478800911068 /* Frameworks */,
+				EA311A771AD7478800911068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixedMode;
+			productName = MixedMode;
+			productReference = EA311A791AD7478800911068 /* MixedMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA311A8D1AD7478800911068 /* MixedModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA311A9B1AD7478800911068 /* Build configuration list for PBXNativeTarget "MixedModeTests" */;
+			buildPhases = (
+				EA311A8A1AD7478800911068 /* Sources */,
+				EA311A8B1AD7478800911068 /* Frameworks */,
+				EA311A8C1AD7478800911068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA311A901AD7478800911068 /* PBXTargetDependency */,
+			);
+			name = MixedModeTests;
+			productName = MixedModeTests;
+			productReference = EA311A8E1AD7478800911068 /* MixedModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA311A711AD7478800911068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Tony;
+				TargetAttributes = {
+					EA311A781AD7478800911068 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EA311A8D1AD7478800911068 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EA311A781AD7478800911068;
+					};
+				};
+			};
+			buildConfigurationList = EA311A741AD7478800911068 /* Build configuration list for PBXProject "MixedMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA311A701AD7478800911068;
+			productRefGroup = EA311A7A1AD7478800911068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA311A781AD7478800911068 /* MixedMode */,
+				EA311A8D1AD7478800911068 /* MixedModeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA311A771AD7478800911068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA311A841AD7478800911068 /* Main.storyboard in Resources */,
+				EA311A891AD7478800911068 /* LaunchScreen.xib in Resources */,
+				EA311A861AD7478800911068 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA311A8C1AD7478800911068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA311A751AD7478800911068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA311A811AD7478800911068 /* ViewController.swift in Sources */,
+				EA311A7F1AD7478800911068 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA311A8A1AD7478800911068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA311A951AD7478800911068 /* MixedModeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA311A901AD7478800911068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA311A781AD7478800911068 /* MixedMode */;
+			targetProxy = EA311A8F1AD7478800911068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA311A821AD7478800911068 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA311A831AD7478800911068 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA311A871AD7478800911068 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA311A881AD7478800911068 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA311A961AD7478800911068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA311A971AD7478800911068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA311A991AD7478800911068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MixedMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA311A9A1AD7478800911068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MixedMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA311A9C1AD7478800911068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MixedModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixedMode.app/MixedMode";
+			};
+			name = Debug;
+		};
+		EA311A9D1AD7478800911068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MixedModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixedMode.app/MixedMode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA311A741AD7478800911068 /* Build configuration list for PBXProject "MixedMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA311A961AD7478800911068 /* Debug */,
+				EA311A971AD7478800911068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA311A981AD7478800911068 /* Build configuration list for PBXNativeTarget "MixedMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA311A991AD7478800911068 /* Debug */,
+				EA311A9A1AD7478800911068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA311A9B1AD7478800911068 /* Build configuration list for PBXNativeTarget "MixedModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA311A9C1AD7478800911068 /* Debug */,
+				EA311A9D1AD7478800911068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA311A711AD7478800911068 /* Project object */;
+}
